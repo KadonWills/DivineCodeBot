@@ -1,0 +1,40 @@
+{
+  "name": "divine",
+  "version": "1.0.0",
+  "description": "A bot to ensure good mentality practices in your server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kadon",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "chalk": "^2.4.2",
+    "discord.js": "^11.4.2",
+    "enmap": "^2.7.2",
+    "enmap-level": "^2.1.0",
+    "erlpack": "github:discordapp/erlpack",
+    "figlet": "^1.2.0",
+    "libsodium-wrappers": "^0.7.3",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "ms": "^2.1.1",
+    "node-opus": "^0.3.0",
+    "opusscript": "0.0.6",
+    "superagent": "^3.8.3",
+    "uws": "^100.0.1",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "DivineCodeBot"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "divine",
+    "entertainment"
+  ]
+}
