@@ -1,13 +1,9 @@
 const config = {
-  // Bot Owner, level 10 by default.
-  "ownerID": "549352205082427421",
-
-  // Bot Admins, level 9 by default.
+  "ownerID": "",
   "admins": [],
-  // Bot Support, level 8 by default.
   "support": [],
 
-  "token": "NTQ5MzUyMjA1MDgyNDI3NDIx.D1S4eQ.Q16syFNCugmRaagywIHZ-7C7LuQ",
+  "token": "",
 
   "defaultSettings" : {
     "prefix": "+",
@@ -21,8 +17,6 @@ const config = {
     "welcomeMessage": "As it was prohetised, {{user}} joined us! ",
     "welcomeEnabled": "false"
   },
-
-  // PERMISSION LEVEL DEFINITIONS.
 
   permLevels: [
     { level: 0,
