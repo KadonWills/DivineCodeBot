@@ -72,7 +72,7 @@ try {
 
 
 
-            if (!cmd.startsWith(prefix)) return
+            if (!cmd.startsWith(prefix)) return;
 
 
 
