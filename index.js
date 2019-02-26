@@ -10,10 +10,10 @@ client.commands = new Enmap();
 client.aliases = new Enmap();
 client.settings = new Enmap({
     provider: new EnmapLevel({
-        name: "settings"
+        name: "settings" 
     })
 }); // Enmap for settings
-client.currency = new Enmap({
+client.currency = new Enmap({ 
     provider: new EnmapLevel({
         name: "currency"
     })
