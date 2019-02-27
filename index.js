@@ -19,7 +19,7 @@ client.currency = new Enmap({
     })
 }); // Enmap for currency
 
-let xep = require('./xp.json')
+let xp = require('./xp.json')
 
 const bot = new Discord.Client({
     disableEveryone: true
@@ -53,7 +53,8 @@ try {
             .catch(err => {
                 console.log(err.stack)
             })
-
+        
+        commands = ["userinfo", "greet"]
 
 
         await bot.generateInvite(['ADMINISTRATOR'])
@@ -83,13 +84,13 @@ try {
                 return message.channel.send(`${greet} ${arg.join(' ')} !`)
             }
 
-            if (cmd === `${prefix}`) {
-                let
-            }
+           
 
 
-            if (cmd === `${prefix}erm`) {
-                return message.channel.send(`Kadon Love Merveille!`)
+            if (cmd === `${prefix}${arg} && !${arg}.contains${commands}`) {
+                return message.channel.send("```
+                                            PLEASE ENTER ``+help`` TO GET HELP
+                                            ```")
             }
 
             if (cmd === `${prefix}userinfo`) {
