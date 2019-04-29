@@ -22,7 +22,7 @@
     "ms": "^2.1.1",
     "node-opus": "^0.3.0",
     "opusscript": "0.0.6",
-    "superagent": "^3.8.3",
+    "superagent": "^5.0.4",
     "uws": "^100.0.1",
     "weather-js": "^2.0.0"
   },
