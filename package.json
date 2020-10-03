@@ -23,7 +23,7 @@
     "node-opus": "^0.3.0",
     "opusscript": "0.0.6",
     "superagent": "^3.8.3",
-    "uws": "^100.0.1",
+    "uws": "^200.0.0",
     "weather-js": "^2.0.0"
   },
   "devDependencies": {},
