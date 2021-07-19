@@ -12,7 +12,7 @@
     "bufferutil": "^4.0.1",
     "chalk": "^2.4.2",
     "discord.js": "^11.4.2",
-    "enmap": "^2.7.2",
+    "enmap": "^5.8.7",
     "enmap-level": "^2.1.0",
     "erlpack": "github:discordapp/erlpack",
     "figlet": "^1.2.0",
